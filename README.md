@@ -1,7 +1,9 @@
 # ☁️ Bulut Bilişim Dersi Proje Ödevi
 
 **Öğrenci:** Can Babaoğlu
+
 **Durum:** ✅ Tamamlandı
+
 **Canlı Bağlantı:** http://13.62.98.56
 
 ---
