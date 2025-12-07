@@ -21,8 +21,6 @@ Arayüz: HTML5 & CSS3
 🚀 Kurulum Komutları (Bash)
 Sunucu kurulumunda kullanılan temel komutlar:
 
-Bash
-
 # Sistem Güncellemesi
 sudo dnf update -y
 
