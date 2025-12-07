@@ -36,7 +36,7 @@ sudo systemctl enable httpd
 # HTML Sayfasının Düzenlenmesi
 sudo nano /var/www/html/index.html
 
-📄 Detaylı Rapor
+# 📄 Detaylı Rapor
 Proje raporunun tamamına ulaşmak için PDF dosyasına bakabilirsiniz: 👉 Bulut_Bilisim_Odev.pdf
 
 ## 🏗 Uygulama Mimarisi
