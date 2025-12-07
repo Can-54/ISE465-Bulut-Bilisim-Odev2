@@ -11,32 +11,28 @@
 ## 📌 Proje Özeti
 Bu proje, **AWS EC2** bulut altyapısı kullanılarak statik bir web uygulamasının canlıya alınması (deployment) sürecini kapsar. Proje kapsamında sanal sunucu yönetimi, Linux komut satırı işlemleri ve ağ güvenliği (Security Groups) yapılandırmaları gerçekleştirilmiştir.
 
-🛠 Kullanılan Teknolojiler
-Bulut Sağlayıcı: Amazon Web Services (AWS)
-
-Sunucu: EC2 (t3.micro) - Amazon Linux 2023
-
-Web Servisi: Apache HTTP Server
-
-Arayüz: HTML5 & CSS3
+**Kullanılan Teknolojiler:**
+* **Bulut Sağlayıcı:** AWS
+* **Sunucu:** EC2 (t3.micro) - Amazon Linux 2023
+* **Web Servisi:** Apache HTTP Server
 
 🚀 Kurulum Komutları (Bash)
 Sunucu kurulumunda kullanılan temel komutlar:
 
-# Sistem Güncellemesi
+### Sistem Güncellemesi
 sudo dnf update -y
 
-# Web Sunucusu Kurulumu
+### Web Sunucusu Kurulumu
 sudo dnf install httpd -y
 
-# Servisi Başlatma
+### Servisi Başlatma
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-# HTML Sayfasının Düzenlenmesi
+### HTML Sayfasının Düzenlenmesi
 sudo nano /var/www/html/index.html
 
-# 📄 Detaylı Rapor
+### 📄 Detaylı Rapor
 Proje raporunun tamamına ulaşmak için PDF dosyasına bakabilirsiniz: 👉 Bulut_Bilisim_Odev.pdf
 
 ## 🏗 Uygulama Mimarisi
