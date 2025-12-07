@@ -9,15 +9,6 @@
 ## 📌 Proje Özeti
 Bu proje, **AWS EC2** bulut altyapısı kullanılarak statik bir web uygulamasının canlıya alınması (deployment) sürecini kapsar. Proje kapsamında sanal sunucu yönetimi, Linux komut satırı işlemleri ve ağ güvenliği (Security Groups) yapılandırmaları gerçekleştirilmiştir.
 
-## 🏗 Uygulama Mimarisi
-
-```mermaid
-graph LR
-    A["Kullanıcı"] -- "HTTP İsteği" --> B(("İnternet"))
-    B -- "Port 80" --> C{"AWS Security Group"}
-    C -- "İzin Verildi" --> D["EC2 Sunucusu"]
-    D -- "Apache Web Server" --> E["index.html"]
-
 🛠 Kullanılan Teknolojiler
 Bulut Sağlayıcı: Amazon Web Services (AWS)
 
@@ -44,5 +35,17 @@ sudo systemctl enable httpd
 
 # HTML Sayfasının Düzenlenmesi
 sudo nano /var/www/html/index.html
+
 📄 Detaylı Rapor
-Proje raporunun tamamına ulaşmak için aşağıdaki dosyaya tıklayabilirsiniz: 👉 Bulut_Bilisim_Odev.pdf
+Proje raporunun tamamına ulaşmak için PDF dosyasına tıklayabilirsiniz: 👉 Bulut_Bilisim_Odev.pdf
+
+## 🏗 Uygulama Mimarisi
+
+```mermaid
+graph LR
+    A["Kullanıcı"] -- "HTTP İsteği" --> B(("İnternet"))
+    B -- "Port 80" --> C{"AWS Security Group"}
+    C -- "İzin Verildi" --> D["EC2 Sunucusu"]
+    D -- "Apache Web Server" --> E["index.html"]
+
+
