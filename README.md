@@ -27,6 +27,7 @@ sudo dnf install httpd -y
 
 ### Servisi Başlatma
 sudo systemctl start httpd
+
 sudo systemctl enable httpd
 
 ### HTML Sayfasının Düzenlenmesi
@@ -36,6 +37,11 @@ sudo nano /var/www/html/index.html
 Proje raporunun tamamına ulaşmak için PDF dosyasına bakabilirsiniz: 👉 Bulut_Bilisim_Odev.pdf
 
 Kod detayları 👉 index.html adlı dosyada mevcuttur.
+
+### 🎥 Proje Sunum Videosu
+Projenin detaylı anlatımını, AWS konsol işlemlerini ve canlı test aşamalarını aşağıdaki bağlantıdan izleyebilirsiniz:
+
+👉 [Proje Sunum Videosunu İzlemek İçin Tıklayın 👉 https://youtu.be/Q5ZgCvmG2QQ
 
 ## 🏗 Uygulama Mimarisi
 
